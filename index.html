@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Web Design & JS Quiz</title>
+  </head>
+  <body>
+    <h1>Web Design & JavaScript Quiz</h1>
+    <p class="note">
+      Pick the correct option(s). Click <b>Check Score</b> to see your result.
+      Questions that say <b>(Select all that apply)</b> have more than one
+      correct answer.
+    </p>
+
+    <form id="quiz">
+      <!-- 1 -->
+      <fieldset data-q="1" data-type="single" data-answer="c">
+        <legend>
+          1) Which image format is best for photographs (many colors +
+          compression)?
+        </legend>
+        <div class="options">
+          <label><input type="radio" name="q1" value="a" /> a) PNG</label>
+          <label><input type="radio" name="q1" value="b" /> b) GIF</label>
+          <label><input type="radio" name="q1" value="c" /> c) JPG/JPEG</label>
+          <label><input type="radio" name="q1" value="d" /> d) PSD</label>
+        </div>
+        <div class="answer">Correct: <b>JPG/JPEG</b></div>
+      </fieldset>
+
+      <!-- 2 -->
+      <fieldset data-q="2" data-type="single" data-answer="b">
+        <legend>2) Which image format supports transparency?</legend>
+        <div class="options">
+          <label><input type="radio" name="q2" value="a" /> a) PSD</label>
+          <label><input type="radio" name="q2" value="b" /> b) PNG</label>
+          <label><input type="radio" name="q2" value="c" /> c) JPG</label>
+          <label><input type="radio" name="q2" value="d" /> d) GIF</label>
+        </div>
+        <div class="answer">Correct: <b>PNG</b></div>
+      </fieldset>
+
+      <!-- 3 -->
+      <fieldset data-q="3" data-type="single" data-answer="c">
+        <legend>3) What file extension is used for Photoshop plug-ins?</legend>
+        <div class="options">
+          <label><input type="radio" name="q3" value="a" /> a) .exe</label>
+          <label><input type="radio" name="q3" value="b" /> b) .dll</label>
+          <label><input type="radio" name="q3" value="c" /> c) .8bf</label>
+          <label><input type="radio" name="q3" value="d" /> d) .psd</label>
+        </div>
+        <div class="answer">Correct: <b>.8bf</b></div>
+      </fieldset>
+
+      <!-- 4 -->
+      <fieldset data-q="4" data-type="single" data-answer="b">
+        <legend>4) What is the function of a Layer Mask?</legend>
+        <div class="options">
+          <label
+            ><input type="radio" name="q4" value="a" /> a) Change color of a
+            layer</label
+          >
+          <label
+            ><input type="radio" name="q4" value="b" /> b) Hide or reveal parts
+            of a layer</label
+          >
+          <label
+            ><input type="radio" name="q4" value="c" /> c) Increase the layer’s
+            opacity</label
+          >
+          <label
+            ><input type="radio" name="q4" value="d" /> d) Duplicate a
+            layer</label
+          >
+        </div>
+        <div class="answer">
+          Correct: <b>Hide or reveal parts of a layer</b>
+        </div>
+      </fieldset>
+
+      <!-- 5 -->
+      <fieldset data-q="5" data-type="single" data-answer="b">
+        <legend>5) What is a Smart Object?</legend>
+        <div class="options">
+          <label
+            ><input type="radio" name="q5" value="a" /> a) A rasterized
+            layer</label
+          >
+          <label
+            ><input type="radio" name="q5" value="b" /> b) A layer that can be
+            edited non-destructively</label
+          >
+          <label
+            ><input type="radio" name="q5" value="c" /> c) A text layer</label
+          >
+          <label
+            ><input type="radio" name="q5" value="d" /> d) A layer without
+            transparency</label
+          >
+        </div>
+        <div class="answer">Correct: <b>Non-destructive editable layer</b></div>
+      </fieldset>
+
+      <!-- 6 (multi) -->
+      <fieldset data-q="6" data-type="multi" data-answer="b,c,d">
+        <legend>
+          6) How do you display output in JavaScript?
+          <span class="multi">(Select all that apply)</span>
+        </legend>
+        <div class="options">
+          <label
+            ><input type="checkbox" name="q6" value="a" /> a) print()</label
+          >
+          <label
+            ><input type="checkbox" name="q6" value="b" /> b) alert()</label
+          >
+          <label
+            ><input type="checkbox" name="q6" value="c" /> c)
+            console.log()</label
+          >
+          <label
+            ><input type="checkbox" name="q6" value="d" /> d)
+            document.write()</label
+          >
+        </div>
+        <div class="answer">
+          Correct: <b>alert(), console.log(), document.write()</b>
+        </div>
+      </fieldset>
+
+      <!-- 7 -->
+      <fieldset data-q="7" data-type="single" data-answer="d">
+        <legend>7) JS comments (single & multi-line)?</legend>
+        <div class="options">
+          <label
+            ><input type="radio" name="q7" value="a" /> a) for single-line, /*
+            */ for multi-line</label
+          >
+          <label
+            ><input type="radio" name="q7" value="b" /> b) &lt;!--&gt; for
+            single, &lt;!-- --&gt; for multi</label
+          >
+          <label
+            ><input type="radio" name="q7" value="c" /> c) # for single, """ """
+            for multi</label
+          >
+          <label
+            ><input type="radio" name="q7" value="d" /> d) // for single-line,
+            /* */ for multi-line</label
+          >
+        </div>
+        <div class="answer">Correct: <b>// and /* */</b></div>
+      </fieldset>
+
+      <!-- 8 -->
+      <fieldset data-q="8" data-type="single" data-answer="b">
+        <legend>8) Select the basic data types in JavaScript:</legend>
+        <div class="options">
+          <label
+            ><input type="radio" name="q8" value="a" /> a) Number, String,
+            Boolean, Object, Array</label
+          >
+          <label
+            ><input type="radio" name="q8" value="b" /> b) Number, String,
+            Boolean, Undefined, Null, Object</label
+          >
+          <label
+            ><input type="radio" name="q8" value="c" /> c) Integer, Float,
+            String, Boolean, Object</label
+          >
+          <label
+            ><input type="radio" name="q8" value="d" /> d) Char, String,
+            Boolean, Object, Array</label
+          >
+        </div>
+        <div class="answer">
+          Correct: <b>Number, String, Boolean, Undefined, Null, Object</b>
+        </div>
+      </fieldset>
+
+      <!-- 9 -->
+      <fieldset data-q="9" data-type="single" data-answer="a">
+        <legend>
+          9) How do you check the data type of a variable in JavaScript?
+        </legend>
+        <div class="options">
+          <label
+            ><input type="radio" name="q9" value="a" /> a) typeof
+            variable</label
+          >
+          <label
+            ><input type="radio" name="q9" value="b" /> b) instanceof
+            variable</label
+          >
+          <label
+            ><input type="radio" name="q9" value="c" /> c) variable.type</label
+          >
+          <label
+            ><input type="radio" name="q9" value="d" /> d)
+            checkType(variable)</label
+          >
+        </div>
+        <div class="answer">Correct: <b>typeof variable</b></div>
+      </fieldset>
+
+      <!-- 10 -->
+      <fieldset data-q="10" data-type="single" data-answer="a">
+        <legend>10) Which are arithmetic operators in JavaScript?</legend>
+        <div class="options">
+          <label
+            ><input type="radio" name="q10" value="a" /> a) +, -, *, /</label
+          >
+          <label
+            ><input type="radio" name="q10" value="b" /> b) +, -, *, /, &&,
+            ||</label
+          >
+          <label
+            ><input type="radio" name="q10" value="c" /> c) ++, --, +=,
+            -=</label
+          >
+          <label
+            ><input type="radio" name="q10" value="d" /> d) ===, ====, !=,
+            !=</label
+          >
+        </div>
+        <div class="answer">Correct: <b>+, -, *, /</b></div>
+      </fieldset>
+
+      <!-- 11 (multi) -->
+      <fieldset data-q="11" data-type="multi" data-answer="a,d">
+        <legend>
+          11) Which keyword is used to declare a variable in JavaScript?
+          <span class="multi">(Select all that apply)</span>
+        </legend>
+        <div class="options">
+          <label><input type="checkbox" name="q11" value="a" /> a) var</label>
+          <label
+            ><input type="checkbox" name="q11" value="b" /> b) variable</label
+          >
+          <label><input type="checkbox" name="q11" value="c" /> c) v</label>
+          <label><input type="checkbox" name="q11" value="d" /> d) let</label>
+        </div>
+        <div class="answer">Correct: <b>var, let</b></div>
+      </fieldset>
+
+      <!-- 12 -->
+      <fieldset data-q="12" data-type="single" data-answer="c">
+        <legend>
+          12) Which operator checks strict equality in JavaScript?
+        </legend>
+        <div class="options">
+          <label><input type="radio" name="q12" value="a" /> a) ==</label>
+          <label><input type="radio" name="q12" value="b" /> b) !=</label>
+          <label><input type="radio" name="q12" value="c" /> c) ===</label>
+          <label><input type="radio" name="q12" value="d" /> d) !==</label>
+        </div>
+        <div class="answer">Correct: <b>===</b></div>
+      </fieldset>
+
+      <!-- 13 -->
+      <fieldset data-q="13" data-type="single" data-answer="d">
+        <legend>
+          13) Which function is used to output data to the console in
+          JavaScript?
+        </legend>
+        <div class="options">
+          <label><input type="radio" name="q13" value="a" /> a) print()</label>
+          <label><input type="radio" name="q13" value="b" /> b) log()</label>
+          <label
+            ><input type="radio" name="q13" value="c" /> c) display()</label
+          >
+          <label
+            ><input type="radio" name="q13" value="d" /> d) console.log()</label
+          >
+        </div>
+        <div class="answer">Correct: <b>console.log()</b></div>
+      </fieldset>
+
+      <!-- 14 -->
+      <fieldset data-q="14" data-type="single" data-answer="a">
+        <legend>
+          14) Which method converts a string to an integer in JavaScript?
+        </legend>
+        <div class="options">
+          <label
+            ><input type="radio" name="q14" value="a" /> a) parseInt()</label
+          >
+          <label
+            ><input type="radio" name="q14" value="b" /> b) toInteger()</label
+          >
+          <label
+            ><input type="radio" name="q14" value="c" /> c)
+            convertToInt()</label
+          >
+          <label
+            ><input type="radio" name="q14" value="d" /> d) stringToInt()</label
+          >
+        </div>
+        <div class="answer">Correct: <b>parseInt()</b></div>
+      </fieldset>
+
+      <!-- 15 -->
+      <fieldset data-q="15" data-type="single" data-answer="b">
+        <legend>
+          15) What does the method <code>querySelector()</code> do in
+          JavaScript?
+        </legend>
+        <div class="options">
+          <label
+            ><input type="radio" name="q15" value="a" /> a) Selects multiple
+            elements by class name</label
+          >
+          <label
+            ><input type="radio" name="q15" value="b" /> b) Selects the first
+            element that matches a CSS selector</label
+          >
+          <label
+            ><input type="radio" name="q15" value="c" /> c) Selects an element
+            by its ID</label
+          >
+          <label
+            ><input type="radio" name="q15" value="d" /> d) Selects all elements
+            of a tag name</label
+          >
+        </div>
+        <div class="answer">
+          Correct: <b>First element matching CSS selector</b>
+        </div>
+      </fieldset>
+
+      <!-- 16 -->
+      <fieldset data-q="16" data-type="single" data-answer="a">
+        <legend>16) How do you generate random numbers in JavaScript?</legend>
+        <div class="options">
+          <label
+            ><input type="radio" name="q16" value="a" /> a) Math.random()</label
+          >
+          <label><input type="radio" name="q16" value="b" /> b) random()</label>
+          <label
+            ><input type="radio" name="q16" value="c" /> c) getrandom()</label
+          >
+          <label
+            ><input type="radio" name="q16" value="d" /> d)
+            generateRandom()</label
+          >
+        </div>
+        <div class="answer">Correct: <b>Math.random()</b></div>
+      </fieldset>
+
+      <!-- 17 -->
+      <fieldset data-q="17" data-type="single" data-answer="b">
+        <legend>17) How do you create a multiline string in JavaScript?</legend>
+        <div class="options">
+          <label
+            ><input type="radio" name="q17" value="a" /> a) Using double
+            quotes</label
+          >
+          <label
+            ><input type="radio" name="q17" value="b" /> b) Using backticks
+            (template literals)</label
+          >
+          <label
+            ><input type="radio" name="q17" value="c" /> c) Using
+            parentheses</label
+          >
+          <label
+            ><input type="radio" name="q17" value="d" /> d) Using single
+            quotes</label
+          >
+        </div>
+        <div class="answer">Correct: <b>Backticks (`...`)</b></div>
+      </fieldset>
+
+      <!-- 18 -->
+      <fieldset data-q="18" data-type="single" data-answer="b">
+        <legend>18) What is jQuery mainly used for?</legend>
+        <div class="options">
+          <label
+            ><input type="radio" name="q18" value="a" /> a) A CSS
+            framework</label
+          >
+          <label
+            ><input type="radio" name="q18" value="b" /> b) A JS library for
+            DOM, events, and animation</label
+          >
+          <label
+            ><input type="radio" name="q18" value="c" /> c) A backend
+            framework</label
+          >
+          <label
+            ><input type="radio" name="q18" value="d" /> d) A database
+            system</label
+          >
+        </div>
+        <div class="answer">
+          Correct: <b>JavaScript library for DOM/events/animation</b>
+        </div>
+      </fieldset>
+
+      <!-- 19 -->
+      <fieldset data-q="19" data-type="single" data-answer="c">
+        <legend>
+          19) What is the purpose of the <code>alt</code> attribute in an
+          &lt;img&gt; tag?
+        </legend>
+        <div class="options">
+          <label
+            ><input type="radio" name="q19" value="a" /> a) Align the
+            image</label
+          >
+          <label
+            ><input type="radio" name="q19" value="b" /> b) Set the image
+            size</label
+          >
+          <label
+            ><input type="radio" name="q19" value="c" /> c) Provide alternative
+            text for accessibility</label
+          >
+          <label
+            ><input type="radio" name="q19" value="d" /> d) Control
+            animation</label
+          >
+        </div>
+        <div class="answer">Correct: <b>Alternative text</b></div>
+      </fieldset>
+
+      <!-- 20 -->
+      <fieldset data-q="20" data-type="single" data-answer="b">
+        <legend>20) What is Bootstrap?</legend>
+        <div class="options">
+          <label
+            ><input type="radio" name="q20" value="a" /> a) A JavaScript
+            framework</label
+          >
+          <label
+            ><input type="radio" name="q20" value="b" /> b) A CSS framework for
+            responsive, mobile-first sites</label
+          >
+          <label
+            ><input type="radio" name="q20" value="c" /> c) A database
+            system</label
+          >
+          <label
+            ><input type="radio" name="q20" value="d" /> d) A server-side
+            scripting language</label
+          >
+        </div>
+        <div class="answer">
+          Correct: <b>CSS framework for responsive design</b>
+        </div>
+      </fieldset>
+
+      <!-- 21 -->
+      <fieldset data-q="21" data-type="single" data-answer="d">
+        <legend>
+          21) Which CSS property controls the spacing between lines of text?
+        </legend>
+        <div class="options">
+          <label
+            ><input type="radio" name="q21" value="a" /> a) text-spacing</label
+          >
+          <label
+            ><input type="radio" name="q21" value="b" /> b) line-spacing</label
+          >
+          <label
+            ><input type="radio" name="q21" value="c" /> c)
+            letter-spacing</label
+          >
+          <label
+            ><input type="radio" name="q21" value="d" /> d) line-height</label
+          >
+        </div>
+        <div class="answer">Correct: <b>line-height</b></div>
+      </fieldset>
+
+      <!-- 22 -->
+      <fieldset data-q="22" data-type="single" data-answer="b">
+        <legend>22) What does the CSS <code>float</code> property do?</legend>
+        <div class="options">
+          <label
+            ><input type="radio" name="q22" value="a" /> a) Controls text
+            alignment inside an element</label
+          >
+          <label
+            ><input type="radio" name="q22" value="b" /> b) Removes element from
+            normal flow and positions left/right</label
+          >
+          <label
+            ><input type="radio" name="q22" value="c" /> c) Makes an element
+            hidden/visible</label
+          >
+          <label
+            ><input type="radio" name="q22" value="d" /> d) Rotates an
+            element</label
+          >
+        </div>
+        <div class="answer">
+          Correct: <b>Positions left/right outside normal flow</b>
+        </div>
+      </fieldset>
+
+      <!-- 23 -->
+      <fieldset data-q="23" data-type="single" data-answer="b">
+        <legend>23) What does the CSS <code>z-index</code> control?</legend>
+        <div class="options">
+          <label
+            ><input type="radio" name="q23" value="a" /> a) Element size</label
+          >
+          <label
+            ><input type="radio" name="q23" value="b" /> b) Stacking order
+            (front/back)</label
+          >
+          <label><input type="radio" name="q23" value="c" /> c) Opacity</label>
+          <label><input type="radio" name="q23" value="d" /> d) Rotation</label>
+        </div>
+        <div class="answer">Correct: <b>Stacking order</b></div>
+      </fieldset>
+
+      <!-- 24 -->
+      <fieldset data-q="24" data-type="single" data-answer="a">
+        <legend>24) Which HTML tag defines a table row?</legend>
+        <div class="options">
+          <label
+            ><input type="radio" name="q24" value="a" /> a) &lt;tr&gt;</label
+          >
+          <label
+            ><input type="radio" name="q24" value="b" /> b) &lt;td&gt;</label
+          >
+          <label
+            ><input type="radio" name="q24" value="c" /> c) &lt;th&gt;</label
+          >
+          <label
+            ><input type="radio" name="q24" value="d" /> d) &lt;table&gt;</label
+          >
+        </div>
+        <div class="answer">Correct: <b>&lt;tr&gt;</b></div>
+      </fieldset>
+
+      <!-- 25 -->
+      <fieldset data-q="25" data-type="single" data-answer="b">
+        <legend>25) When should you use SVG images?</legend>
+        <div class="options">
+          <label
+            ><input type="radio" name="q25" value="a" /> a) For photos</label
+          >
+          <label
+            ><input type="radio" name="q25" value="b" /> b) For scalable icons
+            and logos</label
+          >
+          <label
+            ><input type="radio" name="q25" value="c" /> c) For videos</label
+          >
+          <label
+            ><input type="radio" name="q25" value="d" /> d) Only for
+            animations</label
+          >
+        </div>
+        <div class="answer">Correct: <b>Scalable icons and logos</b></div>
+      </fieldset>
+
+      <div class="controls">
+        <button type="button" id="check">Check Score</button>
+        <button type="button" id="reset">Reset</button>
+        <span id="score"></span>
+      </div>
+    </form>
+  </body>
+</html>

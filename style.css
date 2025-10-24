@@ -1,0 +1,80 @@
+
+      :root {
+        font-family: system-ui, Arial, sans-serif;
+      }
+      body {
+        max-width: 900px;
+        margin: 24px auto;
+        padding: 0 16px;
+      }
+      h1 {
+        font-size: 1.6rem;
+        margin-bottom: 6px;
+      }
+      .note {
+        color: #555;
+        margin: 0 0 18px 0;
+      }
+      fieldset {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 16px;
+        margin: 14px 0;
+      }
+      legend {
+        padding: 0 6px;
+        font-weight: 700;
+      }
+      .multi {
+        font-size: 0.9rem;
+        color: #444;
+      }
+      label {
+        display: block;
+        padding: 8px 10px;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+      .options {
+        margin-top: 8px;
+      }
+      .correct {
+        background: #e6ffe6;
+      }
+      .incorrect {
+        background: #ffecec;
+      }
+      .answer {
+        display: none;
+        margin-top: 8px;
+        font-size: 0.95rem;
+      }
+      .answer b {
+        color: #0a7a0a;
+      }
+      .controls {
+        position: sticky;
+        bottom: 0;
+        background: #fff;
+        padding: 12px 0;
+        border-top: 1px solid #eee;
+        margin-top: 8px;
+      }
+      button {
+        padding: 10px 14px;
+        border: 0;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 700;
+      }
+      #check {
+        background: #2563eb;
+        color: #fff;
+      }
+      #reset {
+        background: #e5e7eb;
+      }
+      #score {
+        font-weight: 800;
+        margin-left: 10px;
+      }
